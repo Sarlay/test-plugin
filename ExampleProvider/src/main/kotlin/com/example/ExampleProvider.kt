@@ -12,7 +12,7 @@ class ExampleProvider : MainAPI() { // all providers must be an instance of Main
     override var lang = "en"
 
     // enable this when your provider has a main page
-    override val hasMainPage = true
+    override val hasMainPage = false
 
     // this function gets called when you search for something
     override suspend fun search(query: String): List<SearchResponse> {
