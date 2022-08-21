@@ -19,7 +19,16 @@ import com.lagradost.cloudstream3.LoadResponse.Companion.addRating
 
 import com.lagradost.cloudstream3.LoadResponse.Companion.addTrailer
 
-import com.lagradost.cloudstream3.extractors.Vudeo
+import com.fasterxml.jackson.annotation.JsonProperty
+
+import com.lagradost.cloudstream3.utils.AppUtils.parseJson
+
+import com.lagradost.cloudstream3.utils.ExtractorLink 
+
+import com.lagradost.cloudstream3.utils.M3u8Helper
+
+import com.lagradost.cloudstream3.utils.Qualities 
+import org.jsoup.Jsoup
 
 import com.lagradost.cloudstream3.mvvm.logError
 
