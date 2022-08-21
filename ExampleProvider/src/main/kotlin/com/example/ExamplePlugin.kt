@@ -1,4 +1,4 @@
-package com.sarlays
+package com.mesfilms
 
 import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 
