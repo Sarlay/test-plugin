@@ -1,4 +1,4 @@
-package com.example
+package com.sarlays
 
 import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 
